@@ -1,6 +1,7 @@
 const express = require("express")
 const cors = require("cors")
 const server = express()
+const port = process.env.PORT || 3000;
 
 server.use(cors());
 //pegar o banco de dados
@@ -90,7 +91,7 @@ server.get("/search-results",(req,res) => {
    
   
 })
-  
+
 //ligar o servidor 
-server.listen(3000) 
+server.listen(port) 
 
