@@ -1,0 +1,127 @@
+#page-home  {
+    height: 100vh; 
+    background: url('../assets/home-background.jpg') no-repeat;
+    background-position: 55vw 10vh ;
+    
+}
+
+
+#page-home .content{
+
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+
+    margin: 0 auto;
+
+    display:flex;
+    flex-direction: column;
+   
+}
+
+
+#page-home header{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page-home header img{
+    height:45px ;
+}
+
+#page-home header a{
+    display:flex;
+    background-color: #3184BD;
+    color:#EBECEE;
+    border-radius: 8px;
+    padding: 2px    ;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+#page-home header a span{
+
+    margin-right: 4px;
+    display:flex; 
+    padding: 2px;
+    background-image:url('../assets/log-in.svg');
+    width: 20px;
+    height: 20px;
+
+}
+
+#page-home main{
+
+    max-width: 560px;   
+    margin-top: 180px;
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#page-home main h1{
+
+    font-size: 35px;
+    max-width: 600px;
+    color:#2E4E8C;
+   
+    
+}
+
+#page-home main p{
+    font-size:24px;
+    line-height: 38px; 
+    margin-top:12px;
+    
+    
+}
+
+#page-home main a{
+    width: 100%;
+    max-width: 240px;
+    height:36px;
+    
+    border-radius: 8px;
+
+    display:flex;
+    align-items: center;
+
+    margin-top:40px;
+
+    background-color:#2E4E8C;
+
+    transition: 400ms;  
+   
+}
+
+#page-home main a:hover{
+    background-color:#3184BD;
+    color:white;
+}
+
+#page-home main a span{
+    width: 48px;
+    height: 48px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius:8px;
+
+    background-color:rgba(0,0,0,0.08);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#page-home main a span::after{
+    content:url('../assets/search.svg');
+
+}
+#page-home main a strong{
+    flex:1; 
+    color:white;
+    text-align:center;
+}
